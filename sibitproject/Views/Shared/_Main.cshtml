@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="~/css/w3.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+<body>
+    @{ await Html.RenderPartialAsync("_Menu");}
+    <div>
+        <div class="w3-row">
+            <div class="w3-container w3-col w3-light-gray" style="width:15%">
+                <p>Column1</p>
+            </div>
+            <div class="w3-container w3-col w3-card-4 w3-gray" style="width:70%; height:1000px;">
+                @RenderBody()
+            </div>
+            <div class="w3-container w3-col w3-light-gray" style="width:15%">
+                <p>Column3</p>
+            </div>
+        </div>
+    </div>
+
+    <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>

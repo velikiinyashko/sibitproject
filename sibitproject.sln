@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sibitproject", "sibitproject\sibitproject.csproj", "{670047E7-77D1-481C-8F4B-937BC4463C0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sibitproject", "sibitproject\sibitproject.csproj", "{42509E0A-C035-4730-A8B6-20D6678E2AAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{670047E7-77D1-481C-8F4B-937BC4463C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{670047E7-77D1-481C-8F4B-937BC4463C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{670047E7-77D1-481C-8F4B-937BC4463C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{670047E7-77D1-481C-8F4B-937BC4463C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42509E0A-C035-4730-A8B6-20D6678E2AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42509E0A-C035-4730-A8B6-20D6678E2AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42509E0A-C035-4730-A8B6-20D6678E2AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42509E0A-C035-4730-A8B6-20D6678E2AAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

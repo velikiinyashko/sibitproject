@@ -6,14 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace sibitproject.Controllers
 {
-    public class HomeController : Controller
+    public class NewsController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-
-        public IActionResult News()
+        public IActionResult Detail(int? id)
         {
             return View();
         }

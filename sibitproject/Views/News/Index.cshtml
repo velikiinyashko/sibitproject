@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+<div class="w3-card-4">
+    <header class="w3-container w3-container w3-light-gray w3-center">
+        <h4>Приложение просмотра CDR записей Asterisk</h4>
+    </header>
+    <div class="w3-container">
+        <img class="w3-left" src="~/images/MainWindow.PNG" style="width:20%; margin: 10px;" />
+
+        <p>
+            Приложение позволяет работать с запясями CDR PBX Asterisk.<br />
+            Дата начала проекта:<i class="w3-text-green"> 03.11.2017</i><br />
+            Состояние проекта:<i class="w3-text-red"> в разработке</i><br />
+            Лицензия продукта: GNU
+        </p>
+    </div>
+    <footer>
+        <p><a class="w3-input w3-button w3-hover-red" asp-action="Detail" asp-controller="News">Подробнее</a> </p>
+    </footer>
+</div>
